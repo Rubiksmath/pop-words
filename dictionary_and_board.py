@@ -1,6 +1,6 @@
 def get_parameters():
     with open('wordlist.txt', 'r') as file:
-        words = [x[:-1] for word in file.readlines()]
+        words = [word[:-1] for word in file.readlines()]
 
 
 
